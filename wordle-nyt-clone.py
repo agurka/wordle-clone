@@ -1,5 +1,13 @@
 #!/usr/bin/python3
 
+'''
+I use brackets to tell the user if the guess is correct
+[] for the green color
+<> for yellow
+() for grey
+^behavior for these is the same as scoredle
+'''
+
 import random
 
 GUESS_FILE = "wordle-nyt-allowed-guesses.txt"
